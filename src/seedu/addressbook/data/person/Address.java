@@ -68,11 +68,11 @@ public class Address {
     public String toString() {
         final StringBuilder builder = new StringBuilder();
         builder.append(getBlock());
-        if(getBlock().Value != "") { builder.append(", "); }
+        if(getBlock().value != "") { builder.append(", "); }
         builder.append(getStreet());
-        if(getStreet().Value != "") { builder.append(", "); }
+        if(getStreet().value != "") { builder.append(", "); }
         builder.append(getUnit());
-        if(getUnit().Value != "") { builder.append(", "); }
+        if(getUnit().value != "") { builder.append(", "); }
         builder.append(getPostalCode());
         if(builder.toString().endsWith(", ")) { return builder.toString().substring(0, builder.toString().length()-2); }
         return builder.toString();
