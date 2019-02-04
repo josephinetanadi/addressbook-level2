@@ -50,7 +50,7 @@ public class AddressBookTest {
         aliceBetsy     = new Person(new Name("Alice Betsy"),
                                     new Phone("91235468", false),
                                     new Email("alice@nushackers.org", false),
-                                    new Address("8 Computing Drive, Singapore", false),
+                                    new Address("8 Computing Drive", false),
                                     Collections.singleton(tagMathematician));
 
         bobChaplin     = new Person(new Name("Bob Chaplin"),

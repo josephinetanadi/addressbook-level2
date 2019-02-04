@@ -50,9 +50,7 @@ public class Email {
     }
 
     @Override
-    public int hashCode() {
-        return value.hashCode();
-    }
+    public int hashCode() { return value.hashCode(); }
 
 
     public boolean isPrivate() {
